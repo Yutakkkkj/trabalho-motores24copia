@@ -6,12 +6,12 @@ public class moeda : MonoBehaviour
 {
   public int velocidadeGiro = 50;
 
-
-  OnTriggerEnter(Collider other)
+ private void OnTriggerEnter(Collider other)
   {
     if (other.gameObject.tag == "Player")
     {
         Destroy(gameObject);
+
     }
   
   
