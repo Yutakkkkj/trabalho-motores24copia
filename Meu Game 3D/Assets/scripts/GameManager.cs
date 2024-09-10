@@ -1,14 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+ public TextMeshProUGUI hud, MsgVitoria;
+ public int restantes;
+
+    
+
     void Start()
+    {
+       restantes = FindObjectsOfType<moeda>.Lenght;
+
+       hud.text = $"Moedas restantes: {restantes}";
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         
     }
-
-   
 }

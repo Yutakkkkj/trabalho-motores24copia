@@ -1,0 +1,6 @@
+sceneSetups:
+- path: D:/Users/20241170150032/Documents/GitHub/trabalho-motores24copia/Meu Game
+    3D/Assets/n1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
